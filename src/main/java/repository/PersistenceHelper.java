@@ -12,7 +12,7 @@ import jakarta.persistence.Persistence;
  */
 public class PersistenceHelper {
 
-    private static final String MYSQL_PERSISTENCE_UNIT = "mysql-pu";
+
     private static final String MARIADB_PERSISTENCE_UNIT = "mariadb-pu";
 
     private static EntityManagerFactory entityManagerFactory;
